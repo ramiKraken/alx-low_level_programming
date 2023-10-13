@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * print_diagonal - prints diagonal line using backward slash '\'
- * @n: how many times the '\' should be printed
- * Return: void
- */
+* print_diagonal - prints diagonal line using backward slash '\'
+* @n: how many times the '\' should be printed
+* Return: void
+*/
 
 void print_diagonal(int n)
 {
