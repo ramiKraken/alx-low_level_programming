@@ -7,7 +7,7 @@
  * Return: encoded string
  */
 
-char *leet(char *str)
+char *rot13(char *str)
 {
 	int i, j;
 	char c[] = "aAeEoOTlL";
