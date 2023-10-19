@@ -10,8 +10,8 @@
 char *leet(char *str)
 {
 	int i, j;
-	char c[] = "aAeEoOtlL";
-	char d[] = "4433007l1";
+	char c[] = "aAeEoOTlL";
+	char d[] = "443300711";
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
