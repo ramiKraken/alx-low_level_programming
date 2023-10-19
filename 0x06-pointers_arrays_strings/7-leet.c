@@ -7,11 +7,11 @@
  * Return: encoded string
  */
 
-char *rot13(char *str)
+char *leet(char *str)
 {
 	int i, j;
-	char c[] = "aAeEoOTlL";
-	char d[] = "4433007711";
+	char c[] = "aAeEoOtlL";
+	char d[] = "4433007l11";
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
