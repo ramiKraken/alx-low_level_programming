@@ -5,7 +5,7 @@
 
 /**
  * main - prints the sum of args positive numbers
- * @args: argument count
+ * @argc: argument count
  * @argv: argument vector
  *
  * Return: always 0
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 					return (1);
 				}
 			}
-	
+
 			sum += atoi(e);
 			e++;
 		}
