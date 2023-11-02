@@ -1,14 +1,15 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * string_nonconcat - concatenates string
+ * string_nconcat - concatenates string
  * @s1: string no 1
  * @s2: string no 2
  * @n: number of bytes to concatenate from s2
  * Return: concatenated string
  */
-char *string_nonconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i;
 	unsigned int s1len = 0;
